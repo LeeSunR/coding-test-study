@@ -13,7 +13,7 @@ function solution(files) {
     return files;
 }
 
-// word2가 더 클경우 true
+//word1 word2 크기 비교
 function compare(word1, word2) {
     let result = true;
     let slice_word1 = slice(word1);
